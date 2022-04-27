@@ -47,9 +47,17 @@
             "styles": [
               "./node_modules/bootstrap/dist/css/bootstrap.min.css",
               "./node_modules/ngx-bootstrap/datepicker/bs-datepicker.css",
+              "./node_modules/toastr/build/toastr.min.css",
+              "./node_modules/primeicons/primeicons.css",
+              "./node_modules/primeng/resources/themes/nova-alt/theme.css",
+              "./node_modules/primeng/resources/primeng.css",
               "src/styles.css"
             ],
-            "scripts": [],
+            "scripts": [
+              "./node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "./node_modules/chart.js/dist/chart.min.js",
+              "./node_modules/jquery/dist/jquery.min.js"
+            ],
             "es5BrowserSupport": true
           },
           "configurations": {
